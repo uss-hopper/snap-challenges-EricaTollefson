@@ -26,7 +26,7 @@ console.log(operation(6, 3));
 // Function #2 - my attempt - I forgot console.log()
 
 let str1 = "Hi ";
-let str2 = "Everybody!";
+let str2 = "Everyone!";
 
 function combine(str1, str2) {
 	return str1 + str2;
