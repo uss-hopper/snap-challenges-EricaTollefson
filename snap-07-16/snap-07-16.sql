@@ -29,3 +29,19 @@ CREATE TABLE task (
 	-- this officiates the primary key for the entity
 	PRIMARY KEY(taskID)
 );
+
+-- part 2, code along:
+
+SELECT tweet.tweetcontent, profile.profileAtHandle
+
+from tweet
+    INNER JOIN 'like' ON tweet.tweetid = like.likeTweetId
+    INNER JOIN profile ON like.likeProfileID = profile.profieID
+WHERE tweet.tweetID = UNHEX("0536faef082b454e9d444cdbe7887d7a");
+
+-- part 2, my code:
+
+from tweet
+
+SELECT tweet.tweetContent, profile.profileAtHandle
+FROM `like` INNER JOIN tweet ON tweet.tweetId = like.likeTweetId INNER --JOIN profile ON profile.profileId = like.likeProfileId WHERE tweetId = UNHEX("0536faef082b454e9d444cdbe7887d7a")
