@@ -34,4 +34,5 @@ class Snowboard {
 }
 
 $customBoard = new Snowboard(1000, 400);
+echo $$customBoard->getPrice().  "-" . $customBoard->getCost(). "=" . $customBoard->profit();
 $customBoard->profit();
