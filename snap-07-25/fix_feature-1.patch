@@ -1,0 +1,20 @@
+From 5007cc093050d8cedd2ab133174d093226b210ec Mon Sep 17 00:00:00 2001
+From: Erica Tollefson <etollefson@cnm.edu>
+Date: Thu, 25 Jul 2019 08:49:34 -0600
+Subject: [PATCH] initial commit
+
+---
+ snap-07-25/my-file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 snap-07-25/my-file.txt
+
+diff --git a/snap-07-25/my-file.txt b/snap-07-25/my-file.txt
+new file mode 100644
+index 0000000..ae679a6
+--- /dev/null
++++ b/snap-07-25/my-file.txt
+@@ -0,0 +1 @@
++this is my file for snap-07-25
+-- 
+2.20.1 (Apple Git-117)
+I'm getting the hang of this git stuff.
