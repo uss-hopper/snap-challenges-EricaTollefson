@@ -2,6 +2,8 @@ ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	display: flex;
+	flex: wrap;
 }
 
 .my-item {
@@ -13,5 +15,6 @@ ul {
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
+	flex: 1 1 15%;
 }
 
