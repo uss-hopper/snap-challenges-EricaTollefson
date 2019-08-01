@@ -18,6 +18,7 @@
 			<li class="my-item">5</li>
 			<li class="my-item">6</li>
 		</ul>
+		<p>The total width and height of the element is: 210px wide by 170px high</p>
 
 
 
