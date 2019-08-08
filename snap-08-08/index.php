@@ -66,6 +66,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				<div class="col-md-3 m-auto">
 					<div class="row d-flex flex-row justify-content-around">
 						<div class="col-md-3 m-auto">
@@ -77,6 +78,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				<div class="col-md-3 m-auto">
 					<div class="row d-flex flex-row justify-content-around">
 						<div class="col-md-3 m-auto">
@@ -90,8 +92,20 @@
 					</div>
 				</div>
 			</div>
-
-
-
+			<div class="row d-flex flex-row justify-content-around">
+				<div class="col-md-4 m-auto">
+					<p class="text-left">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+				</div>
+			</div>
+			<div class="row d-flex flex-row justify-content-around">
+				<div class="col-md-4 m-auto">
+					<p class="text-left">Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+				</div>
+			</div>
+			<div class="row d-flex flex-row justify-content-around">
+				<div class="col-md-4 m-auto">
+					<p class="text-left">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+				</div>
+			</div>
 	</body>
 </html>
