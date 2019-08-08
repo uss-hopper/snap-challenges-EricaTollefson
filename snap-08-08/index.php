@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
-			<a class="navbar-brand" href="#"><img src="cat-icon.png" alt="a cute cat">>Navbar</a>
+			<a class="navbar-brand" href="#"><img src="cat-icon.png" alt="a cute cat">Navbar</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -45,7 +45,51 @@
 				</ul>
 			</div>
 		</nav>
-
+		<div class="container-fluid">
+			<div class="row d-flex flex-row justify-content-around">
+				<div class="col-md-3 m-auto">
+					<div class="card">
+						<h5 class="card-header">Riker</h5>
+						<div class="card-body">
+							<p class="card-text">Lots and lots of text</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 m-auto">
+					<div class="row d-flex flex-row justify-content-around">
+						<div class="col-md-3 m-auto">
+							<div class="card border border-secondary border-rounded">
+								<h5 class="card-header">Ipsum</h5>
+								<div class="card-body">
+									<p class="card-text">Lots and lots of text</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-md-3 m-auto">
+					<div class="row d-flex flex-row justify-content-around">
+						<div class="col-md-3 m-auto">
+							<div class="card border border-danger border-rounded">
+								<h5 class="card-header">===</h5>
+								<div class="card-body">
+									<p class="card-text">Lots and lots of text</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-md-3 m-auto">
+					<div class="row d-flex flex-row justify-content-around">
+						<div class="col-md-3 m-auto">
+							<div class="card border border-warning border-rounded">
+								<h5 class="card-header"><img src="_ionicons_svg_md-heart.svg" alt="a heart"></h5>
+								<div class="card-body">
+									<p class="card-text">Lots and lots of text</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 
