@@ -10,7 +10,7 @@
 
 	<body>
 
-		<pre id="out">Hello</pre>
+
 
 
 
