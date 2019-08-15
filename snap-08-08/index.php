@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
-			<a class="navbar-brand" href="#"><img src="cat-icon.png" alt="a cute cat">Navbar</a>
+			<a class="navbar-brand pr-2" href="#"><img src="cat-icon.png" alt="a cute cat" width="50" height="auto"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -46,40 +46,31 @@
 			</div>
 		</nav>
 		<div class="container-fluid">
-			<div class="row d-flex flex-row justify-content-around">
-				<div class="col-md-3 m-auto">
-					<div class="card">
+			<div class="card-deck">
+					<div class="card col-md-3 border-primary mb-5">
 						<h5 class="card-header">Riker</h5>
 						<div class="card-body">
 							<p class="card-text">Lots and lots of text</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 m-auto">
-					<div class="row d-flex flex-row justify-content-around">
-						<div class="col-md-3 m-auto">
-							<div class="card border border-secondary border-rounded">
-								<h5 class="card-header">Ipsum</h5>
+						<div class="card-deck">
+							<div class="card col-md-3 border-secondary mb-5 border-rounded">
+								<h5 class="card-header">Riker</h5>
 								<div class="card-body">
 									<p class="card-text">Lots and lots of text</p>
 								</div>
 							</div>
 						</div>
+			<div class="card-deck">
+				<div class="card col-md-3 border-secondary mb-5 border-rounded">
+					<h5 class="card-header">Riker</h5>
+					<div class="card-body">
+						<p class="card-text">Lots and lots of text</p>
 					</div>
 				</div>
-				<div class="col-md-3 m-auto">
-					<div class="row d-flex flex-row justify-content-around">
-						<div class="col-md-3 m-auto">
-							<div class="card border border-danger border-rounded">
-								<h5 class="card-header">===</h5>
-								<div class="card-body">
-									<p class="card-text">Lots and lots of text</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 m-auto">
+			</div>
+		</div>
 					<div class="row d-flex flex-row justify-content-around">
 						<div class="col-md-3 m-auto">
 							<div class="card border border-warning border-rounded">
@@ -91,7 +82,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 			<div class="row d-flex flex-row justify-content-around">
 				<div class="col-md-4 m-auto">
 					<p class="text-left">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
