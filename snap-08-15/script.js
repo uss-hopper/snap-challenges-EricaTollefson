@@ -232,8 +232,45 @@ var people = [
 ];
 
 
-
+/** my answer:
 var results = people.map(delete(people.company));
 
-console.log(results);
+console.log(results); **/
 
+/** answer 1: use const to set variable (not var)
+ *  person in this example is the object
+ *  use util.inspect (instead of console.log) when it looks like lat/long is being hidden:
+ *  console.log(util.inspect(people, {showHidden: false, depth: null}));
+
+
+let newPeople = people.map(
+	(person) => {
+		delete person.company;
+		return person;
+	}
+)
+
+console.log(people); */
+
+/** answer 2:
+ * leaves company: in array, without data in it (helps you check data had been there)
+ *
+ *
+let newPeople = people.map(
+	(person) => {
+		person.company = undefined;
+		return person;
+	}
+)
+console.log(people); */
+
+/** answer 3:
+ * list all parts except company - not quite working for some reason
+ *
+ */
+ let newPeople = people.map(
+ person => {
+		return {id: person.id, name: person.name, username: person.username};
+	}
+ )
+ console.log(people);
