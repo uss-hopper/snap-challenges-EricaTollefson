@@ -272,5 +272,5 @@ console.log(people); */
  person => {
 		return {id: person.id, name: person.name, username: person.username};
 	}
- )
+ );
  console.log(people);

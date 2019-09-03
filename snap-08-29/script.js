@@ -9,6 +9,19 @@ function (noVowels) {
 
 print string;
 
+//part 1 in-class answer:
+
+
+function removeVowels( string myString) {
+	vowels = ["a", "e", "i", "o", "u"]
+	string noVowels = "";
+	for each (character in the string) {
+		if (!(character in vowels) ) {
+			noVowels = noVowels + character;
+		}
+	}
+	return noVowels
+}
 
 // part 2, my answer:
 
@@ -21,6 +34,20 @@ function (last number) {
 
 print greatest number
 
+//part 2 in-class answer:
+
+function greatestNumbers ( array myNumbers) {
+	previousNumber = null;
+
+	for( i=0; i<myNumbers.length; i++) {
+		currentValue = myNumbers[i];
+		if (previousNumber = null){
+			previousNumber = currentValue ;
+		} else if (currentValue > previousNumber) {
+			previousNumber = currentValue
+		}
+	return previousNumber;
+}
 
 //part 3, my answer:
 
@@ -35,3 +62,18 @@ function (fib) {
 }
 
 print arr of 100 numbers
+
+//part 3, in-class answer:
+
+function f100 () {
+	array fib = [1, 1]
+
+	for (i=2, i<=100, i++) {
+		fib[i] = fib[i-1] + fib[i-2];
+	}
+	return fib;
+}
+		
+
+}
+
