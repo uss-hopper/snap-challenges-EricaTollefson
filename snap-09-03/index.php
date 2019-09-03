@@ -16,5 +16,10 @@
 
 		<p id="demo"></p>
 
+
+
+		<div id="names"></div>
+		<script src="script.js"></script>
+
 	</body>
 </html>
